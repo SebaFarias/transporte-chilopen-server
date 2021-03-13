@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/viajes",
+      "handler": "viajes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/viajes/count",
+      "handler": "viajes.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/viajes/:id",
+      "handler": "viajes.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/viajes",
+      "handler": "viajes.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/viajes/:id",
+      "handler": "viajes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/viajes/:id",
+      "handler": "viajes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

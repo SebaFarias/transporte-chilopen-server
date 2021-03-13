@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "viajes",
+  "info": {
+    "name": "Viajes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "terminado": {
+      "type": "boolean"
+    },
+    "driver": {
+      "type": "uid"
+    },
+    "origen": {
+      "type": "string"
+    },
+    "destino": {
+      "type": "string"
+    },
+    "pasajeros": {
+      "type": "integer"
+    },
+    "inicio": {
+      "type": "datetime"
+    },
+    "fin": {
+      "type": "datetime"
+    }
+  }
+}
